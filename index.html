@@ -192,11 +192,14 @@
             display: flex;
             justify-content: space-between;
             background-color: blueviolet;
+            
         }
 
         .image-container-unterkunft img {
             object-fit: cover;
             width: 100%;
+            background-color: blueviolet;
+            padding: 16px;
         }
 
         .Unterkunft {
@@ -228,6 +231,37 @@
             border: 0;
             height: 350px;
             width: 70%;
+        }
+        .montag-text {
+            padding: 16px;
+            margin: 16px;
+        }
+
+        .first-text {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+
+        .maps2-container {
+            background-color: blueviolet;
+            padding: 16px;
+        }
+
+        .text-unterkunft {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(150, 16, 16);
+            padding: 16px;
+            font-weight: 700;
+        }
+        .important-text-u {
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+
+        .Unterkunft img {
+            object-fit: contain;
         }
     </style>
 
@@ -295,7 +329,7 @@
         <div class="image-container-woche">
             <img class="alexanderplatz" src="Alexanderplatz.jpg">
         </div>
-        <div>
+        <div class="montag-text">
             <h2>MONTAG:</h2>
             <div>Die Abfahrt findet mit einem Modernen Rrisebuss um
                 06.00 Uhr früh statt,<br> natürlich legen wir auch während der Fahrt ein paar Pausen ein.<br> 16.00 Uhr
@@ -313,7 +347,7 @@
         <div class="image-container-woche">
             <img class="Gedenkstätte" src="Gedenkstaette2.jpg">
         </div>
-        <div>
+        <div class="montag-text">
             <h2> DIENSTAG:<br></h2>
             <div>Am Dienstag begeben wir uns zu der Gedenkstätte in Hohenschönhausen zu einer
                 Führug.<br> Die Gedenkstätte ist für die Auseinandersetung mit den Formen und Folgen der politischen
@@ -340,8 +374,8 @@
                 <img class="d-light-club" src="d-light club.jpg">
             </div>
         </div>
-        <div>
-            <h2 class="point-4">MITTWOCH:<br></h2>
+        <div class="montag-text">
+            <h2> MITTWOCH:<br></h2>
             <div>Am Mittwoch Besuchen wir weitere Kulturhistorische Museen und Orte wie
                 Z.b. eine Führung
                 in dem Museum "Alltag in der DDR", Die Kulturbrauerei Berli, Prenzlauer Berg, Schönhauser Allee,
@@ -374,8 +408,8 @@
                 <img class="Bundestag" src="Bundestag.jpg">
             </div>
         </div>
-        <div>
-            <h2 class="point-5">DONERSTAG:<br></h2>
+        <div class="montag-text">
+            <h2> DONERSTAG:<br></h2>
             <div>Am Donnerstag haben wir am Mittag freie Zeit in den Gruppen zur
                 verfügung,
                 um uns Orte aber auch Stores anzuschauen, Z.b. Deutsches Historisches Museum, Wachsmuseum,
@@ -399,8 +433,8 @@
         <div class="image-container-woche">
             <img class="abschied" src="Abschied.jpg">
         </div>
-        <div>
-            <h2 class="point-6">FREITAG:<br></h2>
+        <div class="montag-text">
+            <h2>FREITAG:<br></h2>
             <div> Freitag ist der letzte Tag in Berlin sozusagen der Abschied dieser
                 großen Stadt und ihrer Arbenteuer und Sehenswürdigkeiten. <br>
                 Die Abfahrt beginnt natürlich in Berlin mit dem Reisebuss um 8.00 Uhr Morgens. Auch bei der Rückfahrt
@@ -421,11 +455,11 @@
         <div class="image-container-unterkunft">
             <img class="unterkunft" src="H2-Hotel.jpg">
         </div>
-        <div>
+        <div class="important-text-u">
 
 
-            <h1 class="h1">UNTERKUNFT<br></h1>
-            <div>Wir nächtigen die 5 Tage in einem Hotel anstatt wie die male davor
+            <h1 class="first-text">UNTERKUNFT<br></h1>
+           <div class="first-text"> Wir nächtigen die 5 Tage in einem Hotel anstatt wie die male davor
                 in einer Jugendherberge.<br>
                 Wir gehen in das Hotel "H2 Hotel"Das Hotel liegt zentral in Berli. Außerdem sind viele
                 sehenswürdigkeiten von hier aus zu erreichen.
@@ -461,6 +495,9 @@
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 <div class="text2-container">
                                 </div>
+                                <div class="text-unterkunft">
+                                    Hier siehst du nochmal den genauen Standtort unseres Aufenthalts in Berlin:)
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -468,6 +505,7 @@
             </div>
         </div>
     </div>
+    
     <div class="feedback" id="feedback">
         <h1 class="h1">FEEDBACK<br></h1>Hier kannst du das Feedback von TeilnehmerInnen der Abschlussfahrt lesen.
     </div>
